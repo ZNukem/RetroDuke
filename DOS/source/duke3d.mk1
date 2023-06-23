@@ -1,0 +1,104 @@
+!define BLANK ""
+c:\dev\retrodukev\source\actors.obj : c:\dev\retrodukev\source\actors.c .AUT&
+ODEPEND
+ @c:
+ cd c:\dev\retrodukev\source
+ *wcc386 actors.c -i=C:\WATCOM\h -w4 -e25 -zq -otexan -5r -bt=dos -mf
+
+c:\dev\retrodukev\source\animlib.obj : c:\dev\retrodukev\source\animlib.c .A&
+UTODEPEND
+ @c:
+ cd c:\dev\retrodukev\source
+ *wcc386 animlib.c -i=C:\WATCOM\h -w4 -e25 -zq -otexan -5r -bt=dos -mf
+
+c:\dev\retrodukev\source\config.obj : c:\dev\retrodukev\source\config.c .AUT&
+ODEPEND
+ @c:
+ cd c:\dev\retrodukev\source
+ *wcc386 config.c -i=C:\WATCOM\h -w4 -e25 -zq -otexan -5r -bt=dos -mf
+
+c:\dev\retrodukev\source\game.obj : c:\dev\retrodukev\source\game.c .AUTODEP&
+END
+ @c:
+ cd c:\dev\retrodukev\source
+ *wcc386 game.c -i=C:\WATCOM\h -w4 -e25 -zq -otexan -5r -bt=dos -mf
+
+c:\dev\retrodukev\source\gamedef.obj : c:\dev\retrodukev\source\gamedef.c .A&
+UTODEPEND
+ @c:
+ cd c:\dev\retrodukev\source
+ *wcc386 gamedef.c -i=C:\WATCOM\h -w4 -e25 -zq -otexan -5r -bt=dos -mf
+
+c:\dev\retrodukev\source\global.obj : c:\dev\retrodukev\source\global.c .AUT&
+ODEPEND
+ @c:
+ cd c:\dev\retrodukev\source
+ *wcc386 global.c -i=C:\WATCOM\h -w4 -e25 -zq -otexan -5r -bt=dos -mf
+
+c:\dev\retrodukev\source\menues.obj : c:\dev\retrodukev\source\menues.c .AUT&
+ODEPEND
+ @c:
+ cd c:\dev\retrodukev\source
+ *wcc386 menues.c -i=C:\WATCOM\h -w4 -e25 -zq -otexan -5r -bt=dos -mf
+
+c:\dev\retrodukev\source\player.obj : c:\dev\retrodukev\source\player.c .AUT&
+ODEPEND
+ @c:
+ cd c:\dev\retrodukev\source
+ *wcc386 player.c -i=C:\WATCOM\h -w4 -e25 -zq -otexan -5r -bt=dos -mf
+
+c:\dev\retrodukev\source\premap.obj : c:\dev\retrodukev\source\premap.c .AUT&
+ODEPEND
+ @c:
+ cd c:\dev\retrodukev\source
+ *wcc386 premap.c -i=C:\WATCOM\h -w4 -e25 -zq -otexan -5r -bt=dos -mf
+
+c:\dev\retrodukev\source\rts.obj : c:\dev\retrodukev\source\rts.c .AUTODEPEN&
+D
+ @c:
+ cd c:\dev\retrodukev\source
+ *wcc386 rts.c -i=C:\WATCOM\h -w4 -e25 -zq -otexan -5r -bt=dos -mf
+
+c:\dev\retrodukev\source\sector.obj : c:\dev\retrodukev\source\sector.c .AUT&
+ODEPEND
+ @c:
+ cd c:\dev\retrodukev\source
+ *wcc386 sector.c -i=C:\WATCOM\h -w4 -e25 -zq -otexan -5r -bt=dos -mf
+
+c:\dev\retrodukev\source\sounds.obj : c:\dev\retrodukev\source\sounds.c .AUT&
+ODEPEND
+ @c:
+ cd c:\dev\retrodukev\source
+ *wcc386 sounds.c -i=C:\WATCOM\h -w4 -e25 -zq -otexan -5r -bt=dos -mf
+
+c:\dev\retrodukev\source\duke3d.exe : c:\dev\retrodukev\source\actors.obj c:&
+\dev\retrodukev\source\animlib.obj c:\dev\retrodukev\source\config.obj c:\de&
+v\retrodukev\source\game.obj c:\dev\retrodukev\source\gamedef.obj c:\dev\ret&
+rodukev\source\global.obj c:\dev\retrodukev\source\menues.obj c:\dev\retrodu&
+kev\source\player.obj c:\dev\retrodukev\source\premap.obj c:\dev\retrodukev\&
+source\rts.obj c:\dev\retrodukev\source\sector.obj c:\dev\retrodukev\source\&
+sounds.obj c:\dev\retrodukev\source\_animlib.h c:\dev\retrodukev\source\_fun&
+ctio.h c:\dev\retrodukev\source\_rts.h c:\dev\retrodukev\source\animlib.h c:&
+\dev\retrodukev\source\build.h c:\dev\retrodukev\source\config.h c:\dev\retr&
+odukev\source\control.h c:\dev\retrodukev\source\develop.h c:\dev\retrodukev&
+\source\duke3d.h c:\dev\retrodukev\source\file_lib.h c:\dev\retrodukev\sourc&
+e\funct.h c:\dev\retrodukev\source\function.h c:\dev\retrodukev\source\fx_ma&
+n.h c:\dev\retrodukev\source\gamedefs.h c:\dev\retrodukev\source\keyboard.h &
+c:\dev\retrodukev\source\mouse.h c:\dev\retrodukev\source\music.h c:\dev\ret&
+rodukev\source\names.h c:\dev\retrodukev\source\pragmas.h c:\dev\retrodukev\&
+source\rts.h c:\dev\retrodukev\source\scriplib.h c:\dev\retrodukev\source\sn&
+dcards.h c:\dev\retrodukev\source\soundefs.h c:\dev\retrodukev\source\sounds&
+.h c:\dev\retrodukev\source\task_man.h c:\dev\retrodukev\source\types.h c:\d&
+ev\retrodukev\source\util_lib.h c:\dev\retrodukev\source\audio_wf.lib c:\dev&
+\retrodukev\source\butwcd4.lib c:\dev\retrodukev\source\mact\mact386.lib c:\&
+dev\retrodukev\source\a.obj c:\dev\retrodukev\source\cache1d.obj c:\dev\retr&
+odukev\source\engine.obj c:\dev\retrodukev\source\mmulti.obj .AUTODEPEND
+ @c:
+ cd c:\dev\retrodukev\source
+ @%write duke3d.lk1 FIL actors.obj,animlib.obj,config.obj,game.obj,gamedef.o&
+bj,global.obj,menues.obj,player.obj,premap.obj,rts.obj,sector.obj,sounds.obj&
+,a.obj,cache1d.obj,engine.obj,mmulti.obj
+ @%append duke3d.lk1 LIBR audio_wf.lib,butwcd4.lib,mact\mact386.lib
+ *wlink name duke3d SYS dos4g op inc op m op st=90k op maxe=25 op u op q op &
+symf @duke3d.lk1
+
