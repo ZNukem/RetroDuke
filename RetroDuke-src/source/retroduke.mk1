@@ -1,0 +1,105 @@
+!define BLANK ""
+c:\dev\retroduke_z\source\actors.obj : c:\dev\retroduke_z\source\actors.c .A&
+UTODEPEND
+ @c:
+ cd c:\dev\retroduke_z\source
+ *wcc386 actors.c -i=C:\WATCOM\h -w4 -e25 -zq -otexan -5r -bt=dos -mf
+
+c:\dev\retroduke_z\source\animlib.obj : c:\dev\retroduke_z\source\animlib.c &
+.AUTODEPEND
+ @c:
+ cd c:\dev\retroduke_z\source
+ *wcc386 animlib.c -i=C:\WATCOM\h -w4 -e25 -zq -otexan -5r -bt=dos -mf
+
+c:\dev\retroduke_z\source\config.obj : c:\dev\retroduke_z\source\config.c .A&
+UTODEPEND
+ @c:
+ cd c:\dev\retroduke_z\source
+ *wcc386 config.c -i=C:\WATCOM\h -w4 -e25 -zq -otexan -5r -bt=dos -mf
+
+c:\dev\retroduke_z\source\game.obj : c:\dev\retroduke_z\source\game.c .AUTOD&
+EPEND
+ @c:
+ cd c:\dev\retroduke_z\source
+ *wcc386 game.c -i=C:\WATCOM\h -w4 -e25 -zq -otexan -5r -bt=dos -mf
+
+c:\dev\retroduke_z\source\gamedef.obj : c:\dev\retroduke_z\source\gamedef.c &
+.AUTODEPEND
+ @c:
+ cd c:\dev\retroduke_z\source
+ *wcc386 gamedef.c -i=C:\WATCOM\h -w4 -e25 -zq -otexan -5r -bt=dos -mf
+
+c:\dev\retroduke_z\source\global.obj : c:\dev\retroduke_z\source\global.c .A&
+UTODEPEND
+ @c:
+ cd c:\dev\retroduke_z\source
+ *wcc386 global.c -i=C:\WATCOM\h -w4 -e25 -zq -otexan -5r -bt=dos -mf
+
+c:\dev\retroduke_z\source\menues.obj : c:\dev\retroduke_z\source\menues.c .A&
+UTODEPEND
+ @c:
+ cd c:\dev\retroduke_z\source
+ *wcc386 menues.c -i=C:\WATCOM\h -w4 -e25 -zq -otexan -5r -bt=dos -mf
+
+c:\dev\retroduke_z\source\player.obj : c:\dev\retroduke_z\source\player.c .A&
+UTODEPEND
+ @c:
+ cd c:\dev\retroduke_z\source
+ *wcc386 player.c -i=C:\WATCOM\h -w4 -e25 -zq -otexan -5r -bt=dos -mf
+
+c:\dev\retroduke_z\source\premap.obj : c:\dev\retroduke_z\source\premap.c .A&
+UTODEPEND
+ @c:
+ cd c:\dev\retroduke_z\source
+ *wcc386 premap.c -i=C:\WATCOM\h -w4 -e25 -zq -otexan -5r -bt=dos -mf
+
+c:\dev\retroduke_z\source\rts.obj : c:\dev\retroduke_z\source\rts.c .AUTODEP&
+END
+ @c:
+ cd c:\dev\retroduke_z\source
+ *wcc386 rts.c -i=C:\WATCOM\h -w4 -e25 -zq -otexan -5r -bt=dos -mf
+
+c:\dev\retroduke_z\source\sector.obj : c:\dev\retroduke_z\source\sector.c .A&
+UTODEPEND
+ @c:
+ cd c:\dev\retroduke_z\source
+ *wcc386 sector.c -i=C:\WATCOM\h -w4 -e25 -zq -otexan -5r -bt=dos -mf
+
+c:\dev\retroduke_z\source\sounds.obj : c:\dev\retroduke_z\source\sounds.c .A&
+UTODEPEND
+ @c:
+ cd c:\dev\retroduke_z\source
+ *wcc386 sounds.c -i=C:\WATCOM\h -w4 -e25 -zq -otexan -5r -bt=dos -mf
+
+c:\dev\retroduke_z\source\retroduke.exe : c:\dev\retroduke_z\source\actors.o&
+bj c:\dev\retroduke_z\source\animlib.obj c:\dev\retroduke_z\source\config.ob&
+j c:\dev\retroduke_z\source\game.obj c:\dev\retroduke_z\source\gamedef.obj c&
+:\dev\retroduke_z\source\global.obj c:\dev\retroduke_z\source\menues.obj c:\&
+dev\retroduke_z\source\player.obj c:\dev\retroduke_z\source\premap.obj c:\de&
+v\retroduke_z\source\rts.obj c:\dev\retroduke_z\source\sector.obj c:\dev\ret&
+roduke_z\source\sounds.obj c:\dev\retroduke_z\source\_animlib.h c:\dev\retro&
+duke_z\source\_functio.h c:\dev\retroduke_z\source\_rts.h c:\dev\retroduke_z&
+\source\animlib.h c:\dev\retroduke_z\source\build.h c:\dev\retroduke_z\sourc&
+e\config.h c:\dev\retroduke_z\source\control.h c:\dev\retroduke_z\source\dev&
+elop.h c:\dev\retroduke_z\source\duke3d.h c:\dev\retroduke_z\source\file_lib&
+.h c:\dev\retroduke_z\source\funct.h c:\dev\retroduke_z\source\function.h c:&
+\dev\retroduke_z\source\fx_man.h c:\dev\retroduke_z\source\gamedefs.h c:\dev&
+\retroduke_z\source\keyboard.h c:\dev\retroduke_z\source\mouse.h c:\dev\retr&
+oduke_z\source\music.h c:\dev\retroduke_z\source\names.h c:\dev\retroduke_z\&
+source\pragmas.h c:\dev\retroduke_z\source\rts.h c:\dev\retroduke_z\source\s&
+criplib.h c:\dev\retroduke_z\source\sndcards.h c:\dev\retroduke_z\source\sou&
+ndefs.h c:\dev\retroduke_z\source\sounds.h c:\dev\retroduke_z\source\task_ma&
+n.h c:\dev\retroduke_z\source\types.h c:\dev\retroduke_z\source\util_lib.h c&
+:\dev\retroduke_z\source\audio_wf.lib c:\dev\retroduke_z\source\butwcd4.lib &
+c:\dev\retroduke_z\source\mact\mact386.lib c:\dev\retroduke_z\source\a.obj c&
+:\dev\retroduke_z\source\cache1d.obj c:\dev\retroduke_z\source\engine.obj c:&
+\dev\retroduke_z\source\mmulti.obj .AUTODEPEND
+ @c:
+ cd c:\dev\retroduke_z\source
+ @%write retroduke.lk1 FIL actors.obj,animlib.obj,config.obj,game.obj,gamede&
+f.obj,global.obj,menues.obj,player.obj,premap.obj,rts.obj,sector.obj,sounds.&
+obj,a.obj,cache1d.obj,engine.obj,mmulti.obj
+ @%append retroduke.lk1 LIBR audio_wf.lib,butwcd4.lib,mact\mact386.lib
+ *wlink name retroduke SYS dos4g op inc op m op st=90k op maxe=25 op u op q &
+op symf @retroduke.lk1
+
