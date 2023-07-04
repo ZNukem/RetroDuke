@@ -52,6 +52,6 @@ The RetroDuke project would like to express gratitude to the following:
 
 ## Contact Information
 
-For any inquiries, suggestions, or feedback, please contact the author, ZNukem, via email at znukem@protin.com.
+For any inquiries, suggestions, or feedback, please contact the author, ZNukem, via email at znukem@proton.me.
 
 Thank you for choosing RetroDuke. Enjoy your retro gaming experience!
